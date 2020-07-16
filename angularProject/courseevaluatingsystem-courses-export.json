@@ -1,0 +1,221 @@
+{
+  "am1" : {
+    "capacity" : 300,
+    "description" : "W ramach zajęć student powinien opanować podstawy rachunku różniczkowego i całkowego funkcji jednej zmiennej wraz z przykładowymi zastosowaniami.",
+    "ects" : 6,
+    "form" : "wykład",
+    "id" : "am1",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Analiza matematyczna 1",
+    "semestr" : 1
+  },
+  "am2" : {
+    "capacity" : 300,
+    "description" : "W ramach zajęć student powinien opanować podstawy rachunku różniczkowego funkcji wielu zmiennych, całki wielokrotne i krzywoliniowe oraz teorię szeregów liczbowych, potęgowych i Fouriera .",
+    "ects" : 6,
+    "form" : "wykład",
+    "id" : "am2",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Analiza matematyczna 2",
+    "semestr" : 2
+  },
+  "md" : {
+    "capacity" : 300,
+    "description" : "Zapoznanie z podstawowymi pojęciami, metodami oraz problemami matematyki dyskretnej pod kątem zastosowań w modelowaniu systemów informatycznych.",
+    "ects" : 5,
+    "form" : "wykład",
+    "id" : "md",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 3,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Matematyka Dyskretna",
+    "semestr" : 1
+  },
+  "WDI" : {
+    "capacity" : 300,
+    "description" : "Celem przedmiotu jest zapoznanie studentów z podstawowymi pojęciami informatyki, programowaniem w języku proceduralnym oraz wprowadzenie do podstawowych algorytmów i struktur danych.",
+    "ects" : 6,
+    "form" : "wykład",
+    "id" : "WDI",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Wstęp do informatyki",
+    "semestr" : 1
+  },
+  "unix" : {
+    "capacity" : 300,
+    "description" : "Celem modułu jest wyposażenie studenta/studentki w umiejętność korzystania z systemu operacyjnego UNIX i na nim bazujących wykorzystując wiedzę o jego budowie i umiejętności praktyczne.",
+    "ects" : 2,
+    "form" : "Wykład",
+    "id" : "unx",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Wprowadzenie do systemu UNIX",
+    "semestr" : 1
+  },
+  "asd" : {
+    "capacity" : 250,
+    "description" : "Przedmiot zapoznaje studentów z podstawowymi algorytmami, strukturami danych, oraz metodami tworzenia i analizy algorytmów",
+    "ects" : 6,
+    "form" : "Wykład",
+    "id" : "asd",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Algorytmy i struktury danych",
+    "semestr" : 2
+  },
+  "ag" : {
+    "capacity" : 250,
+    "description" : "W ramach zajęć student powinien opanować podstawy rachunku różniczkowego i całkowego funkcji jednej zmiennej wraz z przykładowymi zastosowaniami",
+    "ects" : 6,
+    "form" : "Wykład",
+    "id" : "ag",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "lgebra",
+    "semestr" : 1
+  }, 
+  
+
+  "f1" : {
+    "capacity" : 250,
+    "description" : "W ramach zajęć student powinien opanować podstawy rachunku różniczkowego funkcji wielu zmiennych, całki wielokrotne i krzywoliniowe oraz teorię szeregów liczbowych, potęgowych i Fouriera ",
+    "ects" : 6,
+    "form" : "Wykłd",
+    "id" : "f1",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Fizyka 1",
+    "semestr" : 2
+  }, 
+  "pi" : {
+    "capacity" : 250,
+    "description" : "Zapoznanie z podstawowymi pojęciami, metodami oraz problemami matematyki dyskretnej pod kątem zastosowań w modelowaniu systemów informatycznych",
+    "ects" : 4,
+    "form" : "wykład",
+    "id" : "pi",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Programowanie imperatywne",
+    "semestr" : 2
+  },
+  "lm" : {
+    "capacity" : 250,
+    "description" : "Celem przedmiotu jest zapoznanie studentów z podstawowymi pojęciami informatyki, programowaniem w języku proceduralnym oraz wprowadzenie do podstawowych algorytmów i struktur danych",
+    "ects" : 4,
+    "form" : "wykład",
+    "id" : "lm",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Logika matematyczna",
+    "semestr" : 2
+  },
+  "pf" : {
+    "capacity" : 200,
+    "description" : "Celem modułu jest wyposażenie studenta/studentki w umiejętność korzystania z systemu operacyjnego UNIX i na nim bazujących wykorzystując wiedzę o jego budowie i umiejętności praktyczne",
+    "ects" : 2,
+    "form" : "wykład",
+    "id" : "pf",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Programowanie funkcyjne",
+    "semestr" : 3
+  },
+  "mownit" : {
+    "capacity" : 200,
+    "description" : "Przedmiot zapoznaje studentów z podstawowymi algorytmami, strukturami danych, oraz metodami tworzenia i analizy algorytmów",
+    "ects" : 3,
+    "form" : "wykład",
+    "id" : "mownit",
+    "img" : "img",
+    "mark" : {
+      "user1" : 2,
+      "user2" : 5,
+      "user3" : 3,
+      "user4" : 4,
+      "user5" : 5,
+      "user6" : 3
+    },
+    "name" : "Metody obliczeniowe w nauce i technice",
+    "semestr" : 3
+  }
+}
+  

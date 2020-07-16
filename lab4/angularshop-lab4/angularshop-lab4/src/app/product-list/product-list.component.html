@@ -1,0 +1,27 @@
+<div class="card card-body bg-light">
+    <h1><i class="fa fa-cubes" aria-hidden="true"></i>Lista produktów:</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nazwa produktu</th>
+                <th>Ilość sztuk</th>
+                <th>Cena jednostkowa</th>
+                <th>Akcje</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of products"
+                [style.background-color]="product.amount < 4 ? '#FFB7B7' : (product.amount < 8? '#FFFFB3' : 'white')">
+                <td>{{ product.name }}</td>
+                <td>{{ product.amount }}</td>
+                <td>{{ product.price }} </td>
+                <td><button type="button" class="btn btn-primary" (click)="addProduct(product)" >+</button>
+                    <button *ngIf="product.amount>0" type="button" class="btn btn-danger"
+                        (click)="removeProduct(product)">-</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

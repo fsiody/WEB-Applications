@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <link rel="stylesheet" href="game.css" > 
+    <script type="text/javascript" src="gameScript.js"> </script> 
+</head>     
+<body>
+    <div class="im"> <img id="im" src="files/pic1.jpg" onclick="changeIm(this)" alt="motivation"> </div>
+    
+    <div class="sq" onclick="plusOne()" style="background-color: aquamarine;  width: 130px;" id="blok1"> +1 
+        <div  class="sq" onclick="plusTwo()" style="background-color: red; width: 65px;" id="blok2"> +2
+            <div  class="sq" onclick="plusFive()" style="background-color: yellow; width: 5px;" id="blok3"> +5  </div>
+        </div>
+    </div>  
+    
+    <div class="score">
+        <h1 id="score"> SCORE: <p id="n">0</p> </h1>
+    </div>
+    <button id="start" onclick="start()"> START </button>
+    <button id="r" onclick="reset()"> RESET </button>
+    
+</body>
+</html>

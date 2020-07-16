@@ -1,0 +1,94 @@
+body{background-color: rgb(139, 184, 178);}
+
+p#a {
+    color : rgb(36, 18, 54) ; background-color: #b390c2; 
+}
+ul {
+    color : rgb(36, 18, 54); background-color: rgb(148, 118, 231);  font: message-box; 
+}
+p#b {
+    color: rgb(36, 18, 54); background-color: rgb(117, 170, 206); 
+    border-style: dotted; border-color: rgb(31, 80, 53);
+}
+p#xd {
+    color: rgb(36, 18, 54); background-color: rgb(96, 190, 190);  
+    font-style: oblique; font-size: large; width: 600px; height: 200px ; overflow : scroll ;
+    border-style: dotted; border-color: rgb(31, 80, 53);
+}
+p.end {
+    color: rgb(36, 18, 54); background-color: rgb(97, 207, 183);
+}
+
+
+table#t01 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 300px; height: 100px; 
+    text-align: center; vertical-align: center; 
+}
+table#t01 tr:nth-child(even) {
+  background-color: rgb(45, 172, 155);
+}
+table#t01 tr:nth-child(odd) {
+  background-color: cadetblue;
+}
+table#t01 tr#r1 {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+table#t02 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 300px; height: 100px; 
+    text-align: center; vertical-align: center; 
+    background-color: rgb(80, 122, 122);
+    border-collapse: collapse;
+}
+table#t02 tr#r2 {
+    background-color: rgb(15, 51, 17);
+    color: white;
+}
+table#t02 td, table#t02 tr, table#t02 th{
+    border: 1px solid black;
+}
+
+p#cat img#i01 {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: block;
+    width: 25%;
+  }
+  p#cat img#i02 {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: block;
+    width: 25%;
+  }
+
+
+p#Cats1, ul#Cats1{
+    color : rgb(36, 18, 54) ; background-color: #b390c2;
+    position: relative;
+    top: 300px;
+    
+}
+
+p#Colors1, ul#Colors1{
+    color: rgb(36, 18, 54); /* background-color: rgb(97, 207, 183);*/
+    background:  url("./files/wool1.jpg");
+    position: relative;
+    font-size: medium;
+    top: 0px;
+}

@@ -1,0 +1,46 @@
+<div class="container-fluid">  
+<div class="row">
+    <div class="col-4 col-md-4" >
+        <img class="image centerMe" src="{{course.image}}" alt="{{course.image}}" style="width: 100%;">  
+    </div>
+    <div class="col-8 col-md-8">
+        
+        <h3> {{course.name}} </h3>
+        <p> {{course.description}} </p>
+        <table style="width: 100%;">
+            <tr>
+                <th> <p> Ilość miejsc </p> </th>
+                <th> <p> Forma zajęć </p> </th>
+                <th> <p> Semestr </p> </th>
+                <th> <p> ECTS </p> </th>
+                <th> <p> Ocena kursu </p> </th>
+            </tr>
+        
+            <tr>
+                <td> <p> {{course.capacity}} </p> </td>
+                <td> <p> {{course.form}} </p> </td>
+                <td> <p> {{course.semestr}} </p> </td>
+                <td> <p> {{course.ects}} </p> </td>
+                <td> <p> {{markService.getMark(this.course.mark).toFixed(1)}} </p> </td>
+            </tr>
+            
+            <tr>
+                <td> Ocenić kurs </td>
+                <td>
+                    <select class="custom-select custom-select-md centerMe" id="inlineFormCustomSelect" #m>
+                        <option></option>
+                        <option value="2.0">2</option>
+                        <option value="3.0">3</option>
+                        <option value="4.0">4</option>
+                        <option value="5.0">5</option>
+                    </select>
+                </td>
+                <td></td>
+                <td>
+                    <button (click)="addMark(m.value,course.id)" class="btn btn-outline-info centerMe"> Ocenić </button>
+                </td>
+            </tr>       
+    </table>
+    </div>
+</div>
+</div>

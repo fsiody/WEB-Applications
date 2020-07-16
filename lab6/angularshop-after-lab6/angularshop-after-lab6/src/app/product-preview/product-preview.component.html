@@ -1,0 +1,62 @@
+<div *ngIf="product!=null" class="preview-panel">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+      </div>
+      <div class="col-6 text-right">
+        <button *ngIf="authService.isUserAdmin()" [disabled]="!dirty" type="button" class="btn btn-success" (click)="saveProduct(product.key == null)">{{product.key == null ? "Dodaj" : "Zapisz"}}</button>
+        <button *ngIf="authService.isUserAdmin() && product.key!=null" type="button" class="btn btn-danger" (click)="deleteProduct()">Usuń</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <img class="img-thumbnail" src="{{editedProduct?.photo}}">
+      </div>
+      <div class="col-8">
+        <div class="input-group mb-3" style="margin-top: 20px;">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Nazwa</span>
+          </div>
+          <input type="text" (ngModelChange)="makeDirty()" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+            [(ngModel)]="editedProduct.name">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Cena</span>
+          </div>
+          <input type="text" (ngModelChange)="makeDirty()" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+            [(ngModel)]="editedProduct.price">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Ilość sztuk</span>
+          </div>
+          <input type="text" (ngModelChange)="makeDirty()" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+            [(ngModel)]="editedProduct.amount">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">URL zdjęcia</span>
+          </div>
+          <input type="text" (ngModelChange)="makeDirty()" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+            [(ngModel)]="editedProduct.photo">
+        </div>
+
+        <div *ngIf="showSavingSuccessInfo" class="alert alert-success alert-dismissible fade show" role="alert">
+          Product został zapisany.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div *ngIf="showSavingErrorInfo" class="alert alert-danger alert-dismissible fade show" role="alert">
+          Wystąpił błąd podczas zapisu.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>

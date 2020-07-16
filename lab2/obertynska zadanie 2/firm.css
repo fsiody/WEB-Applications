@@ -1,0 +1,83 @@
+.logo{display:block; margin: auto; }
+img.logo{width: 50%; margin-top: 10px;}
+
+.menu{ 
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('files/back/bg25.jpg');  /*21 24 25*/
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+    background-position-y: center ;
+    background-position-x: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block; margin: auto;
+    text-align: center;
+}
+
+/*.navbar-toggler{ display: block; margin-left: auto; margin-right: auto } */
+
+.menuNav { margin: auto; }
+ul.menuNav { list-style: none; width: 100%;}
+.menuNav li { width: 25%; margin: auto; text-align: center;}
+.menuNav a{
+    font-size: 20px;
+    color: #92abee;
+	display: block;
+	padding: 7px 5px 7px 5px;
+}
+
+
+
+.page{
+    color: #131d38;
+}
+
+
+
+.sm{ display: block; margin: auto;}
+.sm a link{ text-decoration: none;}
+.sm a img{ width:40px; } 
+.newstext{ 
+    margin: auto;
+    color: #92aaee;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.newsmail input{
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px #505d83;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #131d38;
+  color: #92aaee;
+  margin: auto;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.basement{
+  background-color: #505d83;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('files/back/bg25.jpg');  /*21 24 25*/
+  width: 100%;
+  margin: auto;
+  background-attachment: fixed;
+  background-position-y: bottom ;
+  background-position-x: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50PX;
+
+
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.firstLine{ margin-top: 30px;}
+
+.a a:link{  color: #7587bd; text-decoration: none; }
+.a a:visited{color: #7587bd; text-decoration: none; }
+
+.a a:hover{color: #92aaee; font-weight: bold; text-shadow: 2px 2px 5px #505d83; text-decoration: dashed;}

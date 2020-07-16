@@ -1,0 +1,61 @@
+html{
+    background-color: rgb(19, 33, 53);
+}
+body{
+    background-color: rgb(129, 192, 207);   
+}
+
+.item1 { grid-area: Main; }
+.item2 { grid-area: Gallery; }
+.item3 { grid-area: Location; }
+.item4 { grid-area: Contact; }
+.item5 { grid-area: Left; }
+.item6 { grid-area: Page; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'Main Gallery Location Contact'
+    'Left Page    Page     Page'
+    'Left Page    Page     Page'
+    'Left Page    Page     Page'
+    'Left Page    Page     Page';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-template-columns: auto;
+  grid-template-rows: 70px 300px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1{
+    background-image:  url("./files/main.jpg");
+}
+.item3 {
+    background:  url("./files/location.jpg") no-repeat center;
+    background-size: 100%;
+}
+
+
+img#logo {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: block;
+    width: 5%;
+  }
+
+div#head , div#stopka{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 6em
+}

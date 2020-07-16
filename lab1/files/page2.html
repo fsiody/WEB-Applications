@@ -1,0 +1,72 @@
+<!-- 
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style2.css" > 
+        <title>  Zadanie 2  </title>
+    </head>
+    <body>
+        
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+        </div>
+
+    </body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: Main; }
+.item2 { grid-area: Gallery; }
+.item3 { grid-area: Location; }
+.item4 { grid-area: Contact; }
+.item5 { grid-area: Left; }
+.item6 { grid-area: Page; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'Main Gallery Location Contact'
+    'Left Page    Page     Page'
+    'Left Page    Page     Page';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Layout</h1>
+
+<p>***************************</p>
+
+<div class="grid-container">
+  <div class="item1">Main</div>
+  <div class="item2">Gallery</div>
+  <div class="item3">Location</div>  
+  <div class="item4">Contact</div>
+  <div class="item5">Left</div>
+  <div class="item6">Page</div>
+</div>
+
+</body>
+</html>

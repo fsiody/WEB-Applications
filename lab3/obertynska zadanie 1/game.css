@@ -1,0 +1,28 @@
+.sq{
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.score{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.im{
+    height: 200px;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
